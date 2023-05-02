@@ -201,7 +201,7 @@ function crossHandler(month){
                 const day = giorni_mese[key[1].selected[j] - 1];
                 const image = document.createElement('img');
                 image.classList.add('cross');
-                image.src = "/img/cross.png";
+                image.src = "img/cross.png";
                 day.appendChild(image);
             }
         }
