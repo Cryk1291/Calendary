@@ -1,0 +1,56 @@
+.day{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /*align-items:center; */
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.tag{
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+    min-height: 20%;
+    max-height: 35%;
+    width: 100%;
+    /*border: 1px solid red;*/
+    position:relative;
+    
+}
+
+.container{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+h3{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background-number{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    color: rgba(198, 198, 198, 0.566);
+    position: relative;
+}
+
+.cross{
+    position: relative;
+    top: -90%;
+}
